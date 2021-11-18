@@ -1,0 +1,96 @@
+{
+        "fields": [
+          {
+            "name": "hospital",
+            "type": "string",
+            "format": "default",
+            "title": "hospital"
+          },
+          {
+            "name": "pacientes_dia",
+            "type": "integer",
+            "format": "default",
+            "title": "pacientes-dia"
+          },
+          {
+            "name": "saidas_hospitalares",
+            "type": "integer",
+            "format": "default",
+            "title": "saídas hospitalares"
+          },
+          {
+            "name": "obitos_hospitalares",
+            "type": "integer",
+            "format": "default",
+            "title": "óbitos hospitalares"
+          },
+          {
+            "name": "obitos_institucionais",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "leitos_dia",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "internacoes_hospitalares",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "consultas_eletivas",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "consultas_urgencia",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "permanencia",
+            "type": "integer",
+            "format": "default",
+            "title": "média de permanência",
+            "description": "média de permanência hospitalar, em dias"
+          },
+          {
+            "name": "ocupacao",
+            "type": "integer",
+            "format": "default",
+            "title": "taxa de ocupação",
+            "description": "taxa de ocupação dos leitos, em %"
+          },
+          {
+            "name": "mortalidade_geral",
+            "type": "integer",
+            "format": "default",
+            "title": "taxa de mortalidade geral",
+            "description": "taxa de mortalidade geral, em %"
+          },
+          {
+            "name": "mortalidade_institucional",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "renovacao_leitos",
+            "type": "integer",
+            "format": "default",
+            "title": "índice de renovação de leitos",
+            "description": "índice de renovação de leitos,"
+          },
+          {
+            "name": "mes",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ano",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }

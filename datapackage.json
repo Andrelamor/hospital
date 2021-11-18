@@ -1,0 +1,50 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "hospital-setembro",
+      "path": "data/hospital-09.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "hospital setembro",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "indicadores hospitalares de setembro"
+    },
+    {
+      "name": "hospital-outubro",
+      "path": "data/hospital-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "hospital outubro",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "indicadores hospitalares de outubro"
+    }
+  ],
+  "keywords": [
+    "indicador hospitalar",
+    "gestão hospitalar"
+  ],
+  "name": "hospital",
+  "title": "indicadores hospitalares",
+  "description": "indicadores hospitalares da [FHEMIG](https://github.com/fhemig)",
+  "homepage": "https://homologa.cge.mg.gov.br/organization/fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "Guilherme",
+      "role": "author"
+    },
+    {"title": "André",
+      "role": "publisher"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
